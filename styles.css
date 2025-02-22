@@ -1,0 +1,157 @@
+body{
+    margin:0px;
+    background-color: #27445D;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    border: none; /* Reset all borders */
+    border-right: 1px solid black; /* Add right border */
+    border-bottom: 1px solid black; /* Add bottom border */
+    border-left: 1px solid black;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 25px;
+    background-color:#497D74;
+    
+    
+}
+
+.left-items{
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-start;
+    
+
+
+    
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.headshot{
+    display:flex;
+    align-items: center;
+    border-radius:50%;
+    width: 50px;
+    height:50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+
+}
+
+li > a{
+    padding:20px;
+    text-decoration:none;
+    color:#EFE9D5;
+}
+
+.right-items{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+
+} 
+
+
+
+.vl {
+    border-left: 4px solid #EFE9D5;
+    height: 510px;
+    position: absolute;
+    left: 49.5%;
+    margin-left: -3px;
+    top: 2;
+  }
+
+.self-desc{
+    margin-right:53%;
+    margin-left:20%;
+    margin-top:4%;
+    background-color:#71BBB2;
+    padding:2%;
+    border-radius: 25px;
+    text-align: center;
+    color:#EFE9D5;
+
+}
+
+.about-me{
+    margin-left:52%;
+    margin-right:20%;
+    margin-top:4%;
+    background-color:#71BBB2;
+    padding:2%;
+    border-radius: 25px;
+    text-align: center;
+    color:#EFE9D5;
+
+}
+
+.projects{
+    margin-top:80px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.projects > section{
+    background-color:#D8C4B6;
+    padding:5%;
+    border-radius: 25px;
+    text-align: center;
+    color:#27445D;
+    
+}
+
+.div-container{
+    background-color: #497D74;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom: 20%;
+    border-radius: 5%;
+    color: #27445D;
+}
+
+
+form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+form > input, form > textarea{
+    border-radius: 6px;
+}
+
+form >h3{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.btn{
+    padding:5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#D8C4B6;
+    border-radius: 6px;
+    color: #27445D
+    
+}
+    
