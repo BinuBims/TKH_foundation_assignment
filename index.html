@@ -10,55 +10,55 @@
     <header>
         <nav class="navbar">
                 <ul class="left-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
                 </ul>
-                <img class="headshot" src="headshot.jpg" alt="Profile pic">
+                <button><img class="headshot" src="cv_button.png" alt="Profile pic"></button>
                 <ul class="right-items">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
                 </ul>
         </nav>
     </header>
-    <main>
-        <img>
+    <main id="main">
+        <img class="main-headshot" src="headshot.jpg" alt="body-profile-pic">
         <div class="vl"></div>
         <section class="self-desc">
             <P>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, magnam. 
-              Cupiditate amet veniam laborum atque ab veritatis ex debitis. Aperiam!  
+                I’m <strong>Emily Harper</strong>, a front-end developer and UX/UI designer with eight years of experience building user-centric websites and applications. I specialize in creating intuitive, visually engaging digital experiences that seamlessly blend design and functionality. With a deep understanding of modern web technologies, responsive design, and accessibility, I strive to craft interfaces that are both aesthetically pleasing and highly usable.
             </P>
         </section>
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <h3>About Me</h3>
             <P>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, magnam. 
-                Cupiditate amet veniam laborum atque ab veritatis ex debitis. Aperiam!  
+                My expertise lies in responsive design, accessibility, and modern web technologies, ensuring that every project is both visually compelling and highly functional.
             </P>
-
+            <p>
+                My skill set includes front-end development using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React</strong> to create responsive and interactive web applications. I have a strong background in <strong>UX/UI design</strong>, including wireframing, prototyping, and user research, ensuring intuitive and visually appealing experiences. Accessibility and inclusive design are central to my approach, ensuring that digital products are usable by everyone.
+            </p>
         </section>
     </main>
-    <section class="projects">
+    <section class="projects" id="projects">
         <section> 
-            <h2>project 1</h2>
-            <img>
-            <p>project 1 paragraph</p>
+            <h2>Social Networking Site</h2>
+            <a href="https://git-scm.com/downloads/win"><img src="site-ecommerce.jpg" alt="project-1"></img></a>
+            <p>Design a social networking site that focuses on connecting people with similar interests or hobbies. The site could allow users to create profiles, post content, and join groups. You could also consider incorporating features like a newsfeed, chat, and recommendations for users to connect with others.</p>
         </section>
-        <section> 
-            <h2>project 2</h2>
-            <img>
-            <p>project 2 paragraph</p>
+        <section>  
+            <h2>E-commerce Website</h2>
+            <a href="https://git-scm.com/downloads/win"><img src="social site.png" alt="project-1"></img></a>
+            <p> Design an e-commerce website that sells products of your choice. The site should include a search function, product pages, a shopping cart, and a checkout process. You could also consider adding features like user reviews, recommended products, and a loyalty program.</p>
         </section>
-        <section> 
-            <h2>project 2</h2>
-            <img>
-            <p>project 2 paragraph</p>
+        <section>
+            <h2>Education App</h2>
+            <a href="https://git-scm.com/downloads/win"><img src="education.jpg" alt="project-1"></img></a>
+            <p>Create an education app that allows users to learn new skills or information. The app could offer courses, quizzes, and other learning materials. You could also consider adding features like progress tracking, social sharing, and personalized recommendations.</p>
         </section>
     </section>
     <section>
-        <div class="div-container">
+        <div class="div-container" id="contact-me">
             <form>
-                <h3>Contact Form</h3>
+                <h3>Contact Me</h3>
                 <label for="name">Your Name</label>
                 <input id="name" type="text">
                 <label for="email">Email</label>
@@ -67,7 +67,7 @@
                 <textarea id="message" rows="10" cols="10" name="message">
                 </textarea>
                 <!-- <input class="btn" type="submit" value="SEND"> -->
-                 <button class="btn">SUBMIT</button>
+                <button class="btn">SUBMIT</button>
             </form>
         </div>
     </section>
